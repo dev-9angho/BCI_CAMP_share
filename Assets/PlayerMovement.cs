@@ -18,6 +18,6 @@ public class PlayerMovement : MonoBehaviour
     {
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
-        rigid.AddForce(new Vector3(h, 0, v) * speed);
+        rigid.AddForce(new Vector3(h, 0, v) * speed, ForceMode.Impulse);
     }
 }
