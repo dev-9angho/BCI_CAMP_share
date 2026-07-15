@@ -11,6 +11,6 @@ public class SceneFinish : MonoBehaviour
 
     public void ChangeToStartScene()
     {
-        SceneManager.LoadScene("StartScene");
+        SceneManager.LoadScene("Start");
     }
 }

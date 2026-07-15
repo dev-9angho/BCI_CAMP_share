@@ -54,6 +54,6 @@ public class PlayerCollision : MonoBehaviour
 
     void RestartGame()
     {
-        SceneManager.LoadScene("Start");
+        SceneManager.LoadScene("Finish");
     }
 }
